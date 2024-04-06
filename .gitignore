@@ -1,132 +1,132 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Compiled class file
+*.class
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
+# Log file
 *.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
 
-# Flask stuff:
-instance/
-.webassets-cache
+# BlueJ files
+*.ctxt
 
-# Scrapy stuff:
-.scrapy
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# Sphinx documentation
-docs/_build/
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
-# PyBuilder
-target/
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 
-# Jupyter Notebook
-.ipynb_checkpoints
 
-# IPython
-profile_default/
-ipython_config.py
+##################
+# NEW IGNORE FILES
 
-# pyenv
-.python-version
+# Config Files
+*.ini
+.DS_Store
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
+# Binary Files
+*.dat
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
+# Addition
+# Ignore all temporary files in the root directory
+*.[oa]
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+# Single Module Project
+/.externalToolBuilders/
+/.settings/
+/.metadata/
+/.recommenders/
+/.allure/
+/target/
+/bin/
+/build/
+/doc/
+/lib/
+/test-output/
+/allure-results/
+/.classpath
+/.project
+/.checkstyle
+/reports/
+/.idea/
+/out/
+/shelf/
+/resources/static/
+/resources/front/
+workspace.xml
+*.iml
+*.ucls
 
-# SageMath parsed files
-*.sage.py
+# Multi Modules Project
+/**/.externalToolBuilders/
+/**/.settings/
+/**/.allure/
+/**/target/
+/**/doc/
+/**/bin/
+/**/build/
+/**/lib/
+/**/test-output/
+/**/allure-results/
+/**/report/
+/**/.classpath
+/**/.project
+/**/.checkstyle
+/**/reports
+/**/af.reporting
+/**/.idea/
+/**/out/
+/**/shelf/
+/**/workspace.xml
+/**/*.iml
+/**/*.ucls
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+/**/frontend/static/
+/**/frontend/*.png
+/**/frontend/*.json
+/**/frontend/*.ico
+/**/frontend/*.html
+/**/frontend/robots.txt
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Ignore binary
+*.bin
+*.exe
+*.xpi
 
-# Rope project settings
-.ropeproject
+# Ignore log
+# *.log
+*.log.[1234567890]
 
-# mkdocs documentation
-/site
+# Ignore IntelliJ IDEA Config Files
+*.stackdump
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+# Ignore Picture
+*.bmp
+# *.png
+#*.jpg
+*.jpeg
 
-# Pyre type checker
-.pyre/
+# Ignore doc/notes.txt, but not doc/info/arch.txt
+# doc/*.txt
 
-.idea
-*.db
+# Ignore all .txt files in the directory doc/
+# doc/**/*.txt
+
+# Ignore .doc .pfd .docx
+*.doc
+*.docx
+*.pdf
+
+# bower
+/bower_components/
+/**/bower_components/
+
+# npm
+/node_modules/
+/**/node_modules/
